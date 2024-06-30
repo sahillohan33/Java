@@ -25,6 +25,7 @@ public class datatype {
 		System.out.println(countAge1);
 		int newAge=190;
 		byte newAgeByte=(byte)newAge;
+		
 		System.out.println(newAgeByte);  // -66
 		
 	}
