@@ -2,8 +2,12 @@ package packageAndEncapsulation;
 
 public class Person {
 
-	public static void main(String[] args) {
-		
+	private int age;
+	public void setAge(int age) {
+		this.age=age;
+}
+	public void getAge() {
+		System.out.println("Your Age is "+age);
 
 	}
 
