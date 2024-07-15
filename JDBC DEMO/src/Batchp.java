@@ -34,7 +34,9 @@ public class Batchp {
             }
             int[] rowAffected=statement.executeBatch();
             for(int i=0;i<rowAffected.length;i++){
-                System.out.println("Query: "+i+" not executed successfully");
+                if(rowAffected[i]==0) {
+                    System.out.println("Query: " + i + " not executed successfully");
+                }
             }
 
         }
